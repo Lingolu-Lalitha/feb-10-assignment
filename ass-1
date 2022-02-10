@@ -1,0 +1,22 @@
+a=input("enter student name:")
+r=input("enter student rollno:")
+m=int(input("enter maths marks:"))
+p=int(input("enter physics marks:"))
+c=int(input("enter computer marks:"))
+t=int(input("enter telugu marks:"))
+e=int(input("enter english marks:"))
+o=int(input("enter online business marks:"))
+if(m>=35 and p>=35 and c>=35 and t>=35 and e>=35 and o>=35 ):
+    print("pass")
+else:
+    print("fail")    
+OUTPUT:
+enter student name-vyshu
+enter student rollno-53
+enter maths marks-46
+enter physics marks-47
+enter computer marks-44
+enter telugu marks-43
+enter english marks-48
+enter online business marks-49
+pass
